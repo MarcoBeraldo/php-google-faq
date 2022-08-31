@@ -88,7 +88,39 @@ $faqs = [
 </head>
 <body>
   <header>
+  <div class="container-fluid mt-3 d-flex justify-content-between">
+      <div class="ms-2"> <img id="logo" src="./logo.png" alt="logo"> <span id="terms">Privacy & Termini</span></div>
+      <div class="mt-1"><i class="fa-solid fa-list-ul me-4"></i></i><button class="btn btn-sm btn-primary me-3 px-4 py-2" type="submit">Sign in</button></div>
+    </div>
 
+    <nav class="navbar navbar-expand-lg p-0">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Introduzione</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Norme sulla privacy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Termini di servizio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tecnologie</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Domande Frequenti</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
 
   </header>
 
@@ -107,8 +139,14 @@ $faqs = [
 
 
   <footer>
-
-
+  <div class="container mt-5">
+            <ul class="d-flex">
+                <li>Google</li>
+                <li>Tutto su Google</li>
+                <li>Privacy</li>
+                <li>Termini</li>
+            </ul>
+        </div>
   </footer>
 
 </body>
